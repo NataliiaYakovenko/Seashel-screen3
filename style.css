@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    background-image: url(./assets/shell.jpg);
+    background-size:210%;
+    background-position:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div {
+    text-align: center;
+    color: #926239;
+}
+h1 {
+    font-size:80px;
+    line-height: 60px;
+}
+p {
+    font-size:25px;
+    line-height: 60px;
+}
+a {
+    color: #926239;
+    text-decoration: none;
+    border: 1px solid #926239;
+    padding: 15px;
+    border-radius: 7px; 
+    line-height: 80px;
+    background-color:none;
+    font-size:30px;
+}
+a:hover {
+    background: #926239;
+    color:white;
+}
